@@ -110,8 +110,8 @@ const ListProduct = () => {
                   columns={columns}
                   data={data}
                   pagination
-                  paginationPerPage={5}
-                  paginationRowsPerPageOptions={[5, 10, 15, 20, 25]}
+                  paginationPerPage={10}
+                  paginationRowsPerPageOptions={[10, 15, 20, 25]}
                   highlightOnHover
                   striped
                   noHeader
