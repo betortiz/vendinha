@@ -61,7 +61,7 @@ const ListProduct = () => {
             className="btn btn-danger mx-4"
             onClick={() => handleDelete(row.slug)}
           >
-            Deletar
+            Apagar
           </div>
         </>
       ),

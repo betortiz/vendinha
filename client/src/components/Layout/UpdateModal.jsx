@@ -75,7 +75,7 @@ const UpdateModal = ({ slug, onClose }) => {
   return (
     <div>
       <div onClick={handleShow}>
-        Editar
+        Atualizar
       </div>
 
       <Modal show={show} onHide={handleClose}>

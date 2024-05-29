@@ -102,10 +102,15 @@ const CreateProduct = () => {
                 </Form>
                 <div className="mb-3">
                   <button
-                    className="btn btn-primary w-100"
+                    className="btn btn-primary w-25"
                     onClick={handleCreate}
                   >
                     Cadastrar
+                  </button>
+                  <button
+                    className="btn btn-danger w-25 mx-2"
+                  >
+                    <a href="/dashboard/list-product" style={{ color: "white" }}>Sair</a>                    
                   </button>
                 </div>
               </div>
